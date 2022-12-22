@@ -36,6 +36,13 @@ body {
 	cursor: pointer;
 }
 
+.cart-item-delete{
+	
+	cursor: pointer;
+}
+
+
+
 .cart-tab::after {
 	content: attr(data-goods-count);
 	display: flex;
